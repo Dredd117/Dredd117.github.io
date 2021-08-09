@@ -71,6 +71,18 @@ console.log("display: " + theTime.getHours() + ":" + theTime.getMinutes() + ":" 
   </head>
 
   <body>
+    <div class ="navbar">
+      <a href="index.html" >index</a>
+      <a href="boards.html">boards</a>
+      <div class="dropdown">
+          <button class="dropbtn">dropdown</button>
+          <i class="fa fa-caret-down"></i>
+          <div class="dropdown-content">
+              <a href="login.html">login</a>
+              <a href="UATSpacePage.html">UATSpace page</a>
+          </div>
+      </div>
+  </div>
     <table>
       <td><img src="UATspaceLogo-1.jpg" /></td>
       <td><h1>UAT Space program</h1></td>
@@ -149,7 +161,6 @@ console.log("display: " + theTime.getHours() + ":" + theTime.getMinutes() + ":" 
    <button class = "button" onclick= "displayFall();">display fall</button>
    <br>
    <br>
-   <button class = "lgButton" onclick= "goLandingPage()"> return landing page</button>
 
   </body>
 </html>
